@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/TP_Examen_final.iml" filepath="$PROJECT_DIR$/TP_Examen_final.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/gateway.iml" filepath="$PROJECT_DIR$/.idea/modules/gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/gateway.main.iml" filepath="$PROJECT_DIR$/.idea/modules/gateway.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/gateway.test.iml" filepath="$PROJECT_DIR$/.idea/modules/gateway.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ms-client.iml" filepath="$PROJECT_DIR$/.idea/modules/ms-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ms-client.main.iml" filepath="$PROJECT_DIR$/.idea/modules/ms-client.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ms-client.test.iml" filepath="$PROJECT_DIR$/.idea/modules/ms-client.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ms-devices.iml" filepath="$PROJECT_DIR$/.idea/modules/ms-devices.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ms-devices.main.iml" filepath="$PROJECT_DIR$/.idea/modules/ms-devices.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ms-devices.test.iml" filepath="$PROJECT_DIR$/.idea/modules/ms-devices.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ms-registry.iml" filepath="$PROJECT_DIR$/.idea/modules/ms-registry.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ms-registry.main.iml" filepath="$PROJECT_DIR$/.idea/modules/ms-registry.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ms-registry.test.iml" filepath="$PROJECT_DIR$/.idea/modules/ms-registry.test.iml" />
+    </modules>
+  </component>
+</project>

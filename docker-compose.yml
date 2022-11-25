@@ -1,0 +1,41 @@
+version: '3'
+services:
+  eureka-server:
+    image: ms-registry
+    ports:
+      - 9999:8888
+
+  gateway-service:
+    image: gateway
+    depends_on:
+      - eureka-server
+    ports:
+      - 7777:7777
+    environment:
+      profile: "default"
+      eureka.client.serviceUrl.defaultZone: "http://eureka-server:8888/eureka"
+    restart: on-failure
+
+  ms-client-service:
+    image: ms-client
+    depends_on:
+      - eureka-server
+      - gateway-service
+    ports:
+      - 8091:8091
+    environment:
+      profile: "default"
+      eureka.client.serviceUrl.defaultZone: "http://eureka-server:8888/eureka"
+    restart: on-failure
+
+  ms-devices-service:
+    image: ms-devices
+    depends_on:
+      - eureka-server
+      - gateway-service
+    ports:
+      - 8092:8092
+    environment:
+      profile: "default"
+      eureka.client.serviceUrl.defaultZone: "http://eureka-server:8888/eureka"
+    restart: on-failure
