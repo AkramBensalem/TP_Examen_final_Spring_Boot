@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.springframework.boot:spring-boot-starter-webflux:2.7.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-webflux/2.7.0/c3c005593c93d9bdbe74e9a2a0fb4896cad19b27/spring-boot-starter-webflux-2.7.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-webflux/2.7.0/bc4dc712aec94b75f7ba6cf09069bfed74824dc6/spring-boot-starter-webflux-2.7.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
